@@ -28,6 +28,52 @@
   color: #61dafb;
 }
 
+.swiper {
+  width: 50%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  height: 800px;
+}
+
+.swiper-slide {
+  background-position: center;
+  background-size: cover;
+  width: 300px;
+  height: 300px;
+  display: flex;
+  align-items: center;
+}
+
+.swiper-slide img {
+  width: 100%;
+}
+.main_testimonals {
+  text-align: justify;
+    width: 50%;
+    margin: 0 auto;
+    background-color: #3333;
+    border-radius: 10px;
+    padding: 50px;
+}
+.main_testimonals p {
+  font-style: italic;
+  font-size: 16px;
+  font-weight: 600;
+}
+.desc_img {
+  margin: 0 auto;
+  text-align: center;
+}
+.desc_img img {
+  width: 50%;
+  /* margin: 0 auto; */
+  border-radius: 50%;
+}
+/* .swiper-wrapper {
+  display: flex !important;
+  align-items: center !important;
+} */
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
